@@ -26,12 +26,3 @@ class TestGenerator:
                     number = randint(self.number_size[0], self.number_size[-1])
                     out.write(str(number) + " ")
                 out.write('\n')
-
-
-if (len(sys.argv) != 2):
-    raise ValueError("Provide <file> argument")
-
-path = sys.argv[1]
-
-generator = TestGenerator(100, example_size=[20000, 100000], number_size=[1000, 10000000])
-generator.generate(path)

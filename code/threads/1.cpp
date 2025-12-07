@@ -1,12 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-const int THREADS = thread::hardware_concurrency();
-
-atomic<int> available_threads(8);
+atomic<int> available_threads(12);
 atomic<long long> ctr;
 
-int threshold = 8;// 1024;
+int threshold = 8;
 
 void MergeSort(int* height, int n, int k, int budget) {
     if (n == 1) return;

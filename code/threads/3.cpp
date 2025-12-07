@@ -3,7 +3,7 @@ using namespace std;
 
 const int THREADS = thread::hardware_concurrency();
 
-atomic<int> available_threads(8);
+atomic<int> available_threads(12);
 atomic<long long> ctr;
 
 int threshold = 512; //1024;
