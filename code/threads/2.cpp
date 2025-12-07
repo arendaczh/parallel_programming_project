@@ -3,10 +3,10 @@ using namespace std;
 
 const int THREADS = thread::hardware_concurrency();
 
-atomic<int> available_threads(12);
+atomic<int> available_threads(8);
 atomic<long long> ctr;
 
-int threshold = 8;
+int threshold = 1024;
 
 void MergeSort(int* height, int n, int k, int budget) {
     if (n == 1) return;

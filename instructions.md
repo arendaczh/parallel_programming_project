@@ -13,5 +13,3 @@
 > * ok. 1-stronicowy raport (pdf) z opisem wprowadzonych zmian, sposobów zrównoleglenia, wyniki pomiarów czasu i krótkim komentarzem dotyczącym wyboru sposobu zrównoleglenia i uzyskanych wyników.
 
 Zadanie jest warte 2-krotności normalnego zadania.
-
-Termin oddania zadań: 6 XII 2025, 23:59 + liczy się data przesłania/odebrania na mail prowadzącego.

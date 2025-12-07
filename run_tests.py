@@ -27,7 +27,6 @@ class Executer:
 
         scores = []
         for filename in os.listdir(tests):
-            print(filename)
             input_path = os.path.join(tests, filename)
 
             if not os.path.isfile(input_path):
